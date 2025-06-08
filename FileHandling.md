@@ -146,9 +146,6 @@ private async void LoadImage(object? sender, RoutedEventArgs e)
         }
 
         this.ImageData = data;
-
-        Console.WriteLine("data loaded");
-        Console.WriteLine(data[0] + " " + data[1]);
     }
     catch (Exception ex)
     {
