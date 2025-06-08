@@ -62,27 +62,198 @@ class University {
 ---
 
 ## 🧭 SOLID Principles
-
 ### 1. **SRP – Single Responsibility Principle**
-- A class should have only one reason to change.
-- Promotes high cohesion.
+
+**Definition**: A class should have only one reason to change, meaning it should have only one job or responsibility.
+
+**Why**: Mixing responsibilities makes classes harder to maintain, test, and reuse.
+
+**Example**:
+```java
+// ❌ Violates SRP
+class Report {
+    String content;
+    void generate() { /* logic to generate report */ }
+    void print() { /* logic to print report */ }
+    void saveToFile() { /* logic to save report */ }
+}
+
+// ✅ Follows SRP
+class Report {
+    String content;
+}
+
+class ReportGenerator {
+    void generate(Report r) { /* generation logic */ }
+}
+
+class ReportPrinter {
+    void print(Report r) { /* printing logic */ }
+}
+
+class ReportSaver {
+    void saveToFile(Report r) { /* saving logic */ }
+}
+```
+
+---
 
 ### 2. **OCP – Open/Closed Principle**
-- Software entities should be open for extension but closed for modification.
-- Use interfaces and abstract classes to extend behavior.
+
+**Definition**: Software entities (classes, modules, functions) should be **open for extension** but **closed for modification**.
+
+**Why**: Encourages you to extend behaviors without changing existing code, reducing the risk of introducing bugs.
+
+**Example**:
+```java
+// ❌ Violates OCP
+class NotificationService {
+    void send(String type) {
+        if (type.equals("EMAIL")) { /* send email */ }
+        else if (type.equals("SMS")) { /* send SMS */ }
+    }
+}
+
+// ✅ Follows OCP using polymorphism
+interface Notifier {
+    void send();
+}
+
+class EmailNotifier implements Notifier {
+    public void send() { /* send email */ }
+}
+
+class SMSNotifier implements Notifier {
+    public void send() { /* send SMS */ }
+}
+
+class NotificationService {
+    private Notifier notifier;
+    public NotificationService(Notifier notifier) {
+        this.notifier = notifier;
+    }
+    public void sendNotification() {
+        notifier.send();
+    }
+}
+```
+
+---
 
 ### 3. **LSP – Liskov Substitution Principle**
-- Subtypes must be substitutable for their base types.
-- No surprises when replacing a superclass object with a subclass.
+
+**Definition**: Subtypes must be substitutable for their base types without altering the correctness of the program.
+
+**Why**: Ensures that a subclass can stand in for a superclass without causing unexpected behavior.
+
+**Example**:
+```java
+// ❌ Violates LSP
+class Bird {
+    void fly() {}
+}
+
+class Ostrich extends Bird {
+    void fly() { throw new UnsupportedOperationException(); }
+}
+
+// ✅ Follows LSP
+interface Bird { void eat(); }
+
+interface FlyingBird extends Bird { void fly(); }
+
+class Sparrow implements FlyingBird {
+    public void eat() {}
+    public void fly() {}
+}
+
+class Ostrich implements Bird {
+    public void eat() {}
+}
+```
+
+---
 
 ### 4. **ISP – Interface Segregation Principle**
-- No client should be forced to depend on methods it does not use.
-- Favor many small, specific interfaces.
+
+**Definition**: No client should be forced to depend on methods it does not use.
+
+**Why**: Fat interfaces force classes to implement unnecessary methods. Smaller interfaces lead to better code decoupling.
+
+**Example**:
+```java
+// ❌ Violates ISP
+interface Worker {
+    void work();
+    void eat();
+}
+
+class Robot implements Worker {
+    public void work() {}
+    public void eat() { /* doesn't make sense for robots */ }
+}
+
+// ✅ Follows ISP
+interface Workable { void work(); }
+interface Eatable { void eat(); }
+
+class Human implements Workable, Eatable {
+    public void work() {}
+    public void eat() {}
+}
+
+class Robot implements Workable {
+    public void work() {}
+}
+```
+
+---
 
 ### 5. **DIP – Dependency Inversion Principle**
-- High-level modules should not depend on low-level modules.
-- Both should depend on abstractions.
-- Use interfaces and dependency injection.
+
+**Definition**: High-level modules should not depend on low-level modules. Both should depend on **abstractions**. Abstractions should not depend on details; details should depend on abstractions.
+
+**Why**: Promotes loose coupling and enhances testability.
+
+**Example**:
+```java
+// ❌ Violates DIP
+class LightBulb {
+    void turnOn() {}
+    void turnOff() {}
+}
+
+class Switch {
+    private LightBulb bulb;
+    public Switch() {
+        this.bulb = new LightBulb();
+    }
+    public void operate() {
+        bulb.turnOn();
+    }
+}
+
+// ✅ Follows DIP
+interface Switchable {
+    void turnOn();
+    void turnOff();
+}
+
+class LightBulb implements Switchable {
+    public void turnOn() {}
+    public void turnOff() {}
+}
+
+class Switch {
+    private Switchable device;
+    public Switch(Switchable device) {
+        this.device = device;
+    }
+    public void operate() {
+        device.turnOn();
+    }
+}
+```
 
 ---
 
