@@ -5,30 +5,31 @@ public class Person
     public int Age { get; set; }
     public string Email { get; set; }
 }
-
-        static void Main(string[] args)
+internal class Reader
+{
+    static void Main(string[] args)
+    {
+        string filePath = "people.json";
+    
+        if (!File.Exists(filePath))
         {
-            string filePath = "people.json";
-
-            if (!File.Exists(filePath))
+            Console.WriteLine("JSON file not found.");
+            return;
+        }
+    
+        try
+        {
+            string jsonContent = File.ReadAllText(filePath);
+            List<Person> people = JsonSerializer.Deserialize<List<Person>>(jsonContent);
+    
+            foreach (var person in people)
             {
-                Console.WriteLine("JSON file not found.");
-                return;
-            }
-
-            try
-            {
-                string jsonContent = File.ReadAllText(filePath);
-                List<Person> people = JsonSerializer.Deserialize<List<Person>>(jsonContent);
-
-                foreach (var person in people)
-                {
-                    Console.WriteLine($"Name: {person.Name}, Age: {person.Age}, Email: {person.Email}");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"An error occurred: {ex.Message}");
+                Console.WriteLine($"Name: {person.Name}, Age: {person.Age}, Email: {person.Email}");
             }
         }
-
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred: {ex.Message}");
+        }
+    }
+}
