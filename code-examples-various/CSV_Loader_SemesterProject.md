@@ -1,4 +1,7 @@
-﻿using Avalonia.Platform.Storage;
+#CSV Data Loader from group 9 semester project
+
+```csharp
+using Avalonia.Platform.Storage;
 using CsvHelper;
 using CsvHelper.Configuration;
 using HeatManager.Core.Models.SourceData;
@@ -77,3 +80,31 @@ public class CsvDataLoader : IDataLoader
     }
 
 }
+```
+
+```csharp
+﻿namespace HeatManager.Core.Models.SourceData;
+
+/// <summary>
+///
+/// Used for parsing of source csv to our data
+/// </summary>
+public class SourceDataPoint
+{
+    // TODO: Possibly change to record
+
+    public DateTime TimeFrom { get; set; }
+
+    public DateTime TimeTo { get; set; }
+
+    /// <summary>
+    /// MWh(th)
+    /// </summary>
+    public double HeatDemand { get; set; }
+
+    /// <summary>
+    /// DKK/MWh(el)
+    /// </summary>
+    public decimal ElectricityPrice { get; set; }
+}
+```
