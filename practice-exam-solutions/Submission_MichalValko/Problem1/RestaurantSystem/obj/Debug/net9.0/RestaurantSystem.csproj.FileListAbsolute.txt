@@ -1,0 +1,14 @@
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/bin/Debug/net9.0/RestaurantSystem
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/bin/Debug/net9.0/RestaurantSystem.deps.json
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/bin/Debug/net9.0/RestaurantSystem.runtimeconfig.json
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/bin/Debug/net9.0/RestaurantSystem.dll
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/bin/Debug/net9.0/RestaurantSystem.pdb
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/obj/Debug/net9.0/RestaurantSystem.GeneratedMSBuildEditorConfig.editorconfig
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/obj/Debug/net9.0/RestaurantSystem.AssemblyInfoInputs.cache
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/obj/Debug/net9.0/RestaurantSystem.AssemblyInfo.cs
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/obj/Debug/net9.0/RestaurantSystem.csproj.CoreCompileInputs.cache
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/obj/Debug/net9.0/RestaurantSystem.dll
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/obj/Debug/net9.0/refint/RestaurantSystem.dll
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/obj/Debug/net9.0/RestaurantSystem.pdb
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/obj/Debug/net9.0/RestaurantSystem.genruntimeconfig.cache
+/home/michal/Downloads/AOP_Practice_Exam_2025/Problem1/RestaurantSystem/obj/Debug/net9.0/ref/RestaurantSystem.dll

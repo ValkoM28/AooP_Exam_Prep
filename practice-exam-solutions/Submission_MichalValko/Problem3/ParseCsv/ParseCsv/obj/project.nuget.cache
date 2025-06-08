@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yxS/u/q8788=",
+  "success": true,
+  "projectFilePath": "/home/michal/Downloads/AOP_Practice_Exam_2025/Problem3/ParseCsv/ParseCsv/ParseCsv.csproj",
+  "expectedPackageFiles": [
+    "/home/michal/.nuget/packages/csvhelper/33.0.1/csvhelper.33.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

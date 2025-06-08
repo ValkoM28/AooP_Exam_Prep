@@ -1,0 +1,24 @@
+1.1) Calculates the price of an order based on the items selected and applies the selected discount. 
+
+1.2)
+Polymorphism - priciple when you have a one super type (for us is an interface IDiscount) that can be replaced by specific implementations of it, such as the respective discount types. Order class just takes the IDiscount type, and it does not care, which specific implementation it gets. 
+
+1.3) Properties are a more or less a shorthand notation for traditional getters 
+(private string name; public string getName() { return this.name };)
+and setters 
+(private string name; public void setName(string name) { this.name = name;  };)
+We are using them instead of public attributes, because we can add more logic to them, if needed (like this)
+
+private string _name; 
+public string Name 
+{
+	get { return _name + "123"; }
+	set { _name = value; RefreshUi(); }
+} 
+
+In the code provided, they are set up in the way, so that we can get them any time from anywhere in the code, but we an only set/modify them only from within the class itself, following encapsulation. 
+
+
+1.4)
+I would say that it only is visible like I mentioned in 1.2), while choosing a discount type. The strategy pattern basically means, that the code will produce different outcomes (prices after discount) from the same arguments, just a different strategy, so it simplifies things (such as not being forced to input the discount manually, etc.)
+
