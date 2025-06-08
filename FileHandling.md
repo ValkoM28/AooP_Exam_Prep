@@ -98,3 +98,61 @@ public async Task LoadFileAsync(Window owner)
 ```xml
 <Button Content="Load File" Command="{Binding LoadFileCommand}" />
 ```
+### ➜Another one, with TopLevel
+```csharp 
+private async void LoadImage(object? sender, RoutedEventArgs e)
+{
+    try
+    {
+        var topLevel = TopLevel.GetTopLevel(this);
+
+        if (topLevel == null)
+        {
+            Console.WriteLine("Error: Unable to get the explorer window.");
+            return;
+        }
+
+        var loadFileOptions = new FilePickerOpenOptions
+        {
+            Title = "Open a File",
+            AllowMultiple = false,
+        };
+
+
+        var load = await topLevel.StorageProvider.OpenFilePickerAsync(loadFileOptions);
+
+        if (load.Count == 0)
+        {
+            Console.WriteLine("No file selected.");
+            return;
+        }
+
+        string filePath = load[0].Path.LocalPath;
+
+        // Open reading stream from the first file.
+        await using var stream = await load[0].OpenReadAsync();
+        using var streamReader = new StreamReader(stream);
+
+
+        // Reads all the content of file as a text.
+        string fileContent = await streamReader.ReadToEndAsync();
+        string[] data = fileContent.Split('\n');
+
+
+        if (!FileContentCheck(data, filePath))
+        {
+            Console.WriteLine("Error: File format incorrect, invalid data.");
+            return;
+        }
+
+        this.ImageData = data;
+
+        Console.WriteLine("data loaded");
+        Console.WriteLine(data[0] + " " + data[1]);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("Error Caught: " + ex.Message);
+    }
+}
+```
