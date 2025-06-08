@@ -1,0 +1,18 @@
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\obj\Debug\net9.0\4 - File handling, CSV, Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\obj\Debug\net9.0\4 - File handling, CSV, Exceptions.AssemblyInfoInputs.cache
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\obj\Debug\net9.0\4 - File handling, CSV, Exceptions.AssemblyInfo.cs
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\obj\Debug\net9.0\4 - File handling, CSV, Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\obj\Debug\net9.0\4 - File handling, CSV, Exceptions.csproj.AssemblyReference.cache
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\bin\Debug\net9.0\4 - File handling, CSV, Exceptions.exe
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\bin\Debug\net9.0\4 - File handling, CSV, Exceptions.deps.json
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\bin\Debug\net9.0\4 - File handling, CSV, Exceptions.runtimeconfig.json
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\bin\Debug\net9.0\4 - File handling, CSV, Exceptions.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\bin\Debug\net9.0\4 - File handling, CSV, Exceptions.pdb
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\bin\Debug\net9.0\CsvHelper.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\obj\Debug\net9.0\4 - File.BE1899E6.Up2Date
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\obj\Debug\net9.0\4 - File handling, CSV, Exceptions.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\obj\Debug\net9.0\refint\4 - File handling, CSV, Exceptions.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\obj\Debug\net9.0\4 - File handling, CSV, Exceptions.pdb
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\obj\Debug\net9.0\4 - File handling, CSV, Exceptions.genruntimeconfig.cache
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Exercises\4 - File handling, CSV, Exceptions\obj\Debug\net9.0\ref\4 - File handling, CSV, Exceptions.dll

@@ -1,0 +1,28 @@
+This is to practice basics like creating classes, constructors and so on
+
+✨Objective:✨
+Create a small console application that tracks books in a library using classes, constructors, and object initializers.
+
+Create a class Book with the following properties:
+Title (string)
+Author (string)
+YearPublished (int)
+IsCheckedOut (bool)
+
+Create two constructors for the Book class:
+A default constructor.
+A parameterized constructor that initializes all properties.
+
+Create another class Library that contains:
+A list of Book objects (List<Book>).
+
+
+A method AddBook(Book book) to add a book.
+
+A method DisplayBooks() to list all books with their details.
+
+In the Main method:
+Create at least two books using the constructor.
+Create at least two books using object initializer syntax.
+Add all books to the library.
+Call DisplayBooks() to show the added books.

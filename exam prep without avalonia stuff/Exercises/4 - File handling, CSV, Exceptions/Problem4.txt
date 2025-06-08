@@ -1,0 +1,21 @@
+Goal of the Exercise:
++Reads employee data from a CSV file using CSVHelper.
++Parses company settings from a JSON file (e.g., bonus thresholds).
++Generates a report and writes it to a text file.
++Uses try/catch blocks to handle potential exceptions during file operations and parsing.
+
+
+✨Objective:✨
+
+Employee class:
+    // TODO: Create Employee class with Name, Department, Salary
+    // TODO: Create CompanySettings class with BonusThreshold (decimal)
+
+Main class:
+                // TODO: Read employees from "employees.csv"
+                // TODO: Read company settings from "settings.json"
+                // TODO: Filter high earners and write report to "high_earners.txt"
+
+
+
+✨EXPLANATIONS:✨

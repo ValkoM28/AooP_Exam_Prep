@@ -1,0 +1,14 @@
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\bin\Debug\net9.0\1- Solution.exe
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\bin\Debug\net9.0\1- Solution.deps.json
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\bin\Debug\net9.0\1- Solution.runtimeconfig.json
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\bin\Debug\net9.0\1- Solution.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\bin\Debug\net9.0\1- Solution.pdb
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\obj\Debug\net9.0\1- Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\obj\Debug\net9.0\1- Solution.AssemblyInfoInputs.cache
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\obj\Debug\net9.0\1- Solution.AssemblyInfo.cs
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\obj\Debug\net9.0\1- Solution.csproj.CoreCompileInputs.cache
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\obj\Debug\net9.0\1- Solution.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\obj\Debug\net9.0\refint\1- Solution.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\obj\Debug\net9.0\1- Solution.pdb
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\obj\Debug\net9.0\1- Solution.genruntimeconfig.cache
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\1- Solution\obj\Debug\net9.0\ref\1- Solution.dll

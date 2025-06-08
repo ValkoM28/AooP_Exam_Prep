@@ -1,0 +1,69 @@
+This is to practice making interfaces alongside properties and collections
+
+✨Objective:✨
+Build a Zoo Animal Management System that uses:
++Properties to encapsulate data in classes.
++Interfaces to enforce consistent structure across different animal types.
++Collections (List<IAnimal>) to store and manage multiple animal objects.
+
+Under the namespace:
+    // Define the IAnimal interface
+    // Add read-only properties: Name (string), Species (string), Age (int)
+    // Add method: MakeSound()
+
+Animal classes:
+    // TODO: Implement the IAnimal interface in a class called 'Lion'
+    // TODO: Implement another class called 'Parrot'
+
+Zoo class:
+    // TODO: Define Zoo class
+    // - Use a List<IAnimal> to store animals
+    // - Add methods: AddAnimal(IAnimal animal), ShowAllAnimals()
+
+Main class:
+            // TODO: Create Zoo instance
+            // TODO: Create Lion and Parrot objects and add them to the zoo
+            // TODO: Call zoo.ShowAllAnimals()
+
+
+
+✨EXPLANATIONS:✨
+⭐Properties are used to define the data (or state) that a class holds. They are usually declared using getters and setters:
+
+////////
+public string Name { get; private set; }
+get; lets you read the property.
+/////////
+
+private set; means the property can only be changed inside the class, not from outside.
+
+In the exercise:
+Name, Species, and Age are properties for each animal.
+
+⭐Interfaces define a contract that any implementing class must follow. They are useful for abstraction and polymorphism.
+
+///////////////////
+public interface IAnimal
+{
+    string Name { get; }
+    string Species { get; }
+    int Age { get; }
+
+    void MakeSound();
+}
+//////////////////////
+
+Every class that implements IAnimal must:
+Provide Name, Species, and Age properties.
+Implement the MakeSound() method.
+This allows the zoo to work with any type of animal that implements IAnimal, without knowing the specific class type.
+
+
+⭐Collections allow you to store multiple items. List<IAnimal> is a generic list that can hold any object that implements the IAnimal interface.
+
+In the Zoo class:
+/////////////////
+private List<IAnimal> animals = new List<IAnimal>();
+////////////
+This lets us manage a dynamic list of animals, regardless of their specific type (Lion, Parrot, etc.).
+

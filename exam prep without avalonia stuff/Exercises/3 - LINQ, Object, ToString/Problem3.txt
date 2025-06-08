@@ -1,0 +1,62 @@
+Goal of the Exercise:
+Build a system that manages a list of products in a store, allowing you to:
++Sort products by price using IComparable.
++Filter products by price using LINQ and Lambda expressions.
++Display product details using an overridden ToString() method.
+
+
+✨Objective:✨
+
+Product class:
+    // TODO: Create a Product class
+    // Properties: Name (string), Category (string), Price (decimal)
+    // Implement IComparable<Product> to sort by Price (lowest to highest)
+    // Override ToString() to return: "[Name] - [Category] - $[Price]"
+
+Main class:
+            // TODO: Create a list of Product objects
+            // TODO: Sort the products using IComparable
+            // TODO: Use LINQ to filter products cheaper than $50
+            // TODO: Print filtered list using ToString()
+
+
+
+✨EXPLANATIONS:✨
+
+⭐ Product Class
+This class models a store item. It has:
+3 properties: Name, Category, and Price.
+A constructor to initialize them.
+
+Implements IComparable<Product> so that we can sort products by price using List.Sort().
+
+///////
+public int CompareTo(Product other)
+{
+    return this.Price.CompareTo(other.Price);
+}
+//////
+This compares product prices in ascending order (cheapest first).
+
+
+⭐ ToString() Override
+///////////////
+public override string ToString()
+{
+    return $"{Name} - {Category} - ${Price:F2}";
+}
+/////////////
+
+This method customizes how a Product appears when printed. Instead of the default [Namespace.Product], we get something like:
+Notebook - Stationery - $3.75
+
+
+⭐ LINQ + Lambda Expression
+/////////////
+var affordableProducts = products.Where(p => p.Price < 50).ToList();
+/////////
+
+This uses:
+Where() to filter the list.
+A lambda expression p => p.Price < 50 to define the filtering logic.
+ToList() to convert the result back into a list.

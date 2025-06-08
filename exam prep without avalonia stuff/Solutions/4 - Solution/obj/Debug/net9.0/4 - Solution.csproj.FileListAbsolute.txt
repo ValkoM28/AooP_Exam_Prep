@@ -1,0 +1,18 @@
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\obj\Debug\net9.0\4 - Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\obj\Debug\net9.0\4 - Solution.AssemblyInfoInputs.cache
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\obj\Debug\net9.0\4 - Solution.AssemblyInfo.cs
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\obj\Debug\net9.0\4 - Solution.csproj.CoreCompileInputs.cache
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\obj\Debug\net9.0\4 - Solution.csproj.AssemblyReference.cache
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\bin\Debug\net9.0\4 - Solution.exe
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\bin\Debug\net9.0\4 - Solution.deps.json
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\bin\Debug\net9.0\4 - Solution.runtimeconfig.json
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\bin\Debug\net9.0\4 - Solution.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\bin\Debug\net9.0\4 - Solution.pdb
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\bin\Debug\net9.0\CsvHelper.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\obj\Debug\net9.0\4 - Solu.9F737F9C.Up2Date
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\obj\Debug\net9.0\4 - Solution.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\obj\Debug\net9.0\refint\4 - Solution.dll
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\obj\Debug\net9.0\4 - Solution.pdb
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\obj\Debug\net9.0\4 - Solution.genruntimeconfig.cache
+C:\Users\klark\Documents\SDU Software engineering\2nd Semester\Advanced OOP\Exam practice\Solutions\4 - Solution\obj\Debug\net9.0\ref\4 - Solution.dll
