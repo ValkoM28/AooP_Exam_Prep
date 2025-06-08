@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\klark\\Documents\\SDU Software engineering\\2nd Semester\\Advanced OOP\\Exam practice\\Solutions\\1- Solution\\1- Solution.csproj",
+      "projectUniqueName": "C:\\Users\\klark\\Documents\\GitHub\\AooP_Exam_Prep\\exam prep without avalonia stuff\\Solutions\\1- Solution\\1- Solution.csproj",
       "projectName": "1- Solution",
-      "projectPath": "C:\\Users\\klark\\Documents\\SDU Software engineering\\2nd Semester\\Advanced OOP\\Exam practice\\Solutions\\1- Solution\\1- Solution.csproj",
+      "projectPath": "C:\\Users\\klark\\Documents\\GitHub\\AooP_Exam_Prep\\exam prep without avalonia stuff\\Solutions\\1- Solution\\1- Solution.csproj",
       "packagesPath": "C:\\Users\\klark\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\klark\\Documents\\SDU Software engineering\\2nd Semester\\Advanced OOP\\Exam practice\\Solutions\\1- Solution\\obj\\",
+      "outputPath": "C:\\Users\\klark\\Documents\\GitHub\\AooP_Exam_Prep\\exam prep without avalonia stuff\\Solutions\\1- Solution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\klark\\AppData\\Roaming\\NuGet\\NuGet.Config"

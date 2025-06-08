@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\klark\\Documents\\SDU Software engineering\\2nd Semester\\Advanced OOP\\Exam practice\\Exercises\\2 - Properties and interfaces\\2 - Properties and interfaces.csproj",
+      "projectUniqueName": "C:\\Users\\klark\\Documents\\GitHub\\AooP_Exam_Prep\\exam prep without avalonia stuff\\Exercises\\2 - Properties and interfaces\\2 - Properties and interfaces.csproj",
       "projectName": "2 - Properties and interfaces",
-      "projectPath": "C:\\Users\\klark\\Documents\\SDU Software engineering\\2nd Semester\\Advanced OOP\\Exam practice\\Exercises\\2 - Properties and interfaces\\2 - Properties and interfaces.csproj",
+      "projectPath": "C:\\Users\\klark\\Documents\\GitHub\\AooP_Exam_Prep\\exam prep without avalonia stuff\\Exercises\\2 - Properties and interfaces\\2 - Properties and interfaces.csproj",
       "packagesPath": "C:\\Users\\klark\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\klark\\Documents\\SDU Software engineering\\2nd Semester\\Advanced OOP\\Exam practice\\Exercises\\2 - Properties and interfaces\\obj\\",
+      "outputPath": "C:\\Users\\klark\\Documents\\GitHub\\AooP_Exam_Prep\\exam prep without avalonia stuff\\Exercises\\2 - Properties and interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\klark\\AppData\\Roaming\\NuGet\\NuGet.Config"

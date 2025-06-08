@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\klark\\Documents\\SDU Software engineering\\2nd Semester\\Advanced OOP\\Exam practice\\Exercises\\1 - Classes, constructors\\1 - Classes, constructors.csproj",
+      "projectUniqueName": "C:\\Users\\klark\\Documents\\GitHub\\AooP_Exam_Prep\\exam prep without avalonia stuff\\Exercises\\1 - Classes, constructors\\1 - Classes, constructors.csproj",
       "projectName": "1 - Classes, constructors",
-      "projectPath": "C:\\Users\\klark\\Documents\\SDU Software engineering\\2nd Semester\\Advanced OOP\\Exam practice\\Exercises\\1 - Classes, constructors\\1 - Classes, constructors.csproj",
+      "projectPath": "C:\\Users\\klark\\Documents\\GitHub\\AooP_Exam_Prep\\exam prep without avalonia stuff\\Exercises\\1 - Classes, constructors\\1 - Classes, constructors.csproj",
       "packagesPath": "C:\\Users\\klark\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\klark\\Documents\\SDU Software engineering\\2nd Semester\\Advanced OOP\\Exam practice\\Exercises\\1 - Classes, constructors\\obj\\",
+      "outputPath": "C:\\Users\\klark\\Documents\\GitHub\\AooP_Exam_Prep\\exam prep without avalonia stuff\\Exercises\\1 - Classes, constructors\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\klark\\AppData\\Roaming\\NuGet\\NuGet.Config"
