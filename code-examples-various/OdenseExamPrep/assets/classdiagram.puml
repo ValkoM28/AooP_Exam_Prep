@@ -1,0 +1,91 @@
+@startuml LaundroMat
+skinparam classAttributeIconSize 0
+package laundry_facade
+{
+    class LaundrySingleton
+    {
+        -instance : LaundrySingleton = null
+        -laundryMachines: ILaundryMachine[]
+        +GetInstance: LaundrySingleton
+        -LaundrySingleton()
+        +ToString(): string
+        +GetMachine(index : int) : ILaundryMachine
+        +GetPrice(machine : int) : double
+        +GetProgramName(machine : int) : string
+        +BuildLaundry() : void
+        +TestLaundrySingleton() : void
+    }
+
+    interface ILaundryMachine
+    {
+        +GetModel() : string
+        +GetPrice() : double
+        +GetProgramName(prog : int) : string
+    }
+
+    abstract class LaundryConstants <<record>>
+    {
+        WashingMachine6 : string = "6 Kg Wash"
+        WashingMachine12 : string = "12 Kg Wash"
+        Tumble : string = "Tumbler"
+        TumblePrice : double = 1.25
+        WashProgram1 : string = "95 Normal"
+        WashProgram2 : string = "60 Normal"
+        WashProgram3 : string = "40 Normal"
+        WashProgram4 : string = "30 Mild"
+        WashProgram5 : string = "40 Non-iron"
+        WashProgram6 : string = "60 Non-iron"
+        WashProgram7 : string = "Wool"
+        WashPrice1 : double = 42.00
+        WashPrice2 : double = 37.50
+        WashPrice3 : double = 33.50
+        WashPrice4 : double = 30.00
+        WashPrice5 : double = 35.00
+        WashPrice6 : double = 39.50
+        WashPrice7 : double = 28.00
+        FactorWash12 : double = 1.5
+    }
+
+    class WashProgram
+    {
+        -name : string
+        -price : double
+        +WashProgram(name : string, price : double)
+        +GetName() : string
+        +GetPrice() : double
+        +ToString() : string
+    }
+
+    class WashingMachine
+    {
+        -model : string
+        -programs : Dictionary<int, WashProgram>
+        +WashingMachine(model : string)
+        +AddProgram(code : int, name : string, price : double) : void
+        +GetModel() : string
+        +GetPrice(prog : int) : double
+        +GetProgramName(prog : int) : double
+        +ToString() : string
+
+    }
+
+    class TumbleDryer
+    {
+        -model : string
+        -pricePerMinute : double
+        +TumbleDryer(model : string)
+        +GetModel() : string
+        +SetPrice(pricePerMinute : double) : void
+        +GetPrice(minutes : int) : double
+        +ToString() : string
+        +GetProgramName(prog : int) : string
+    }
+}
+
+LaundrySingleton --> ILaundryMachine
+LaundrySingleton --> LaundrySingleton
+LaundryConstants <|- LaundrySingleton
+ILaundryMachine <|-- TumbleDryer
+ILaundryMachine <|-- WashingMachine
+WashProgram <--o WashingMachine : dictionaryValue
+@enduml
