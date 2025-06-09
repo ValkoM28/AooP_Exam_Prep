@@ -1,12 +1,8 @@
 ## ➜ Headless UI Testing in Avalonia
 
-Avalonia supports **headless testing**, allowing you to run unit/UI tests on UI components without launching a full application window — great for CI and automation.
-
----
-
 ### ➤ Step 1: Install Required Packages
 
-In your **test project** (`.Tests`), add these NuGet packages:
+In the **test project** (`.Tests`), add these NuGet packages:
 
 ```bash
 dotnet add package Avalonia.Headless
@@ -44,8 +40,6 @@ public class HeadlessTestBase : IDisposable
     }
 }
 ```
-
-> 🧠 Replace `App` with your own `App.xaml.cs` class or a lightweight version for testing.
 
 ---
 
