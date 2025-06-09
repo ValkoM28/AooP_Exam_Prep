@@ -1,0 +1,15 @@
+## 📂 Reading and Writing Text Files
+
+---
+
+### ➤ Basics: Using `System.IO.File`
+
+| Operation       | Method                            |
+|----------------|------------------------------------|
+| Read All Text  | `File.ReadAllText(path)`           |
+| Write All Text | `File.WriteAllText(path, content)` |
+| Append Text    | `File.AppendAllText(path, text)`   |
+
+> ✅ These methods are **synchronous**. Use `File.ReadAllTextAsync` etc. for **async I/O**.
+
+---
