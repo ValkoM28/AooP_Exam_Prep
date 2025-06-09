@@ -1,0 +1,15 @@
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/bin/Debug/net9.0/ComparableCompareOdenseEx1
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/bin/Debug/net9.0/ComparableCompareOdenseEx1.deps.json
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/bin/Debug/net9.0/ComparableCompareOdenseEx1.runtimeconfig.json
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/bin/Debug/net9.0/ComparableCompareOdenseEx1.dll
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/bin/Debug/net9.0/ComparableCompareOdenseEx1.pdb
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/obj/Debug/net9.0/ComparableCompareOdenseEx1.GeneratedMSBuildEditorConfig.editorconfig
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/obj/Debug/net9.0/ComparableCompareOdenseEx1.AssemblyInfoInputs.cache
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/obj/Debug/net9.0/ComparableCompareOdenseEx1.AssemblyInfo.cs
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/obj/Debug/net9.0/ComparableCompareOdenseEx1.csproj.CoreCompileInputs.cache
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/obj/Debug/net9.0/ComparableCompareOdenseEx1.sourcelink.json
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/obj/Debug/net9.0/ComparableCompareOdenseEx1.dll
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/obj/Debug/net9.0/refint/ComparableCompareOdenseEx1.dll
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/obj/Debug/net9.0/ComparableCompareOdenseEx1.pdb
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/obj/Debug/net9.0/ComparableCompareOdenseEx1.genruntimeconfig.cache
+/home/michal/Documents/unifiles/sem2/AooP/exam-prep/code-examples-various/ComparableCompareOdenseEx1/obj/Debug/net9.0/ref/ComparableCompareOdenseEx1.dll
