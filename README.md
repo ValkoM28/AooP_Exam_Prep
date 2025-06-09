@@ -7,3 +7,6 @@ https://docs.avaloniaui.net/
 ```csharp
 await Dispatcher.UIThread.InvokeAsync(() => {});
 ```
+
+### Some homework examples (use when desperate, the code is shitty)
+https://github.com/ValkoM28/aoop-hw-spicymeatballs-1
