@@ -14,7 +14,22 @@
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
+    
+    <TabControl>
+        <TabItem Header="Verify Facade">
+            <StackPanel>
+                <TextBox Text="{Binding Number1}"></TextBox>
+                <TextBox Text="{Binding Number2}"></TextBox>
+                <Button Content="Fill Array" Command="{Binding FillArrayCommand}"></Button>
+                <Button Content="Fill Unique Array" Command="{Binding FillUniqueArrayCommand}"></Button>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding Array1}"></TextBlock>
+                <TextBlock Text="{Binding Array2}"></TextBlock>
+
+            </StackPanel>
+
+        </TabItem>
+    </TabControl>
+
 
 </Window>

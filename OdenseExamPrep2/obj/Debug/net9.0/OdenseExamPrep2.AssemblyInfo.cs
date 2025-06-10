@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OdenseExamPrep2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+019b74e98f354b1465560211bf635df816b9734c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac7189d121e43d72d9ba85eca0da371df5f518d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("OdenseExamPrep2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OdenseExamPrep2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
